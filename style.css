@@ -1,0 +1,56 @@
+
+.viewport.first{
+   background-image: linear-gradient(to right, #195E9D, #41CAA1);
+   
+   height: 100vh;
+   position: relative;
+}
+.viewport.second{
+    background-image: linear-gradient(to right, #A93378, #D18114);
+    height: 100vh;
+    position: relative;
+}
+body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.card{
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    display: block;
+}
+
+.pic1{
+   
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5), /* Inset shadow */
+    5px 5px 15px rgba(0, 0, 0, 0.3); /* Outer shadow */
+}
+.pic2{
+   
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5), /* Inset shadow */
+    5px 5px 15px rgba(0, 0, 0, 0.3); /* Outer shadow */
+}
+.icon{
+    position: absolute;
+}
+.fa-solid.fa-link{
+position: relative;
+left: -300px;
+top: 115px;
+color: white;
+}
+.fa-solid.fa-star{
+    position: relative;
+    left: -300px;
+    top: 325px;
+    color: white;
+
+}
